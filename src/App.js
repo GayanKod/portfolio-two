@@ -1,9 +1,11 @@
+import React from 'react';
 import './App.css';
+import SmtNew from "../src/components/SmtNew";
 
 function App() {
   return (
     <div className="App">
-      hello world
+      <SmtNew />
     </div>
   );
 }
